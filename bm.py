@@ -135,7 +135,7 @@ def z_array(string):
     return z
 
 
-def n_array(string):
+def n_array(string):    #return n-array
     return z_array(string[::-1])[::-1]
 
 
