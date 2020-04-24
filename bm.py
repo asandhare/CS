@@ -94,7 +94,7 @@ def readGenome(filename):
 
 
 def z_array(string):
-    # Z algorithm for preprocessing 
+    # Z algorithm for preprocessing as given in Dan Gusfield's book
     assert len(string) > 1
     z = [len(string)] + [0] * (len(string)-1)
     for i in range(1, len(string)):
